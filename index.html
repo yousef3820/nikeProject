@@ -9,36 +9,36 @@
 </head>
 <body class=>
     <main class=" relative">
-        <header class="fixed p-4 left-0 w-full z-10 transition-colors duration-300">
+        <header class="fixed p-4 left-0 w-full z-10 transition-colors duration-300 opacity-0 animate-fade-in">
             <nav class="flex justify-between items-center m-auto max-w-[1440px]">
-                <a href="#" class="transition-transform duration-300 hover:scale-110">
+                <a href="#" class="transition-transform duration-300 hover:scale-110 opacity-0 animate-fade-in" style="animation-delay: 0.2s">
                     <img src="/assets/images/header-logo.svg" alt="" class="w-[100px] md:w-[130px] h-[24px] md:h-[29px]">
                 </a>
                 <!-- Desktop Menu -->
                 <ul class="hidden lg:flex flex-1 justify-center items-center flex-row gap-6 md:gap-16">
-                    <li>
+                    <li class="opacity-0 animate-fade-in" style="animation-delay: 0.3s">
                         <a href="#Home" class="leading-normal text-base md:text-lg text-gray-400 relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-red-400 after:left-0 after:-bottom-2 after:rounded-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 hover:text-red-400">
                             Home
                         </a>
                     </li>
-                    <li>
+                    <li class="opacity-0 animate-fade-in" style="animation-delay: 0.4s">
                         <a href="#AboutUs" class="leading-normal text-base md:text-lg text-gray-400 relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-red-400 after:left-0 after:-bottom-2 after:rounded-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 hover:text-red-400">
                             About us
                         </a>
                     </li>
-                    <li>
+                    <li class="opacity-0 animate-fade-in" style="animation-delay: 0.5s">
                         <a href="#Products" class="leading-normal text-base md:text-lg text-gray-400 relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-red-400 after:left-0 after:-bottom-2 after:rounded-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 hover:text-red-400">
                             Products
                         </a>
                     </li>
-                    <li>
+                    <li class="opacity-0 animate-fade-in" style="animation-delay: 0.6s">
                         <a href="#footer" class="leading-normal text-base md:text-lg text-gray-400 relative after:content-[''] after:absolute after:w-full after:h-[2px] after:bg-red-400 after:left-0 after:-bottom-2 after:rounded-full after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 hover:text-red-400">
                             Contact Us
                         </a>
                     </li>
                 </ul>
                 <!-- Mobile Menu Button -->
-                <button id="menu-btn" class="block lg:hidden transition-transform duration-300 hover:scale-110 cursor-pointer">
+                <button id="menu-btn" class="block lg:hidden transition-transform duration-300 hover:scale-110 cursor-pointer opacity-0 animate-fade-in" style="animation-delay: 0.2s">
                     <img src="/assets/icons/hamburger.svg" alt="" class="w-[24px] h-[24px]">
                 </button>
                 <!-- Mobile Menu Panel -->
@@ -51,16 +51,16 @@
                         </button>
                     </div>
                     <ul class="flex flex-col items-center gap-8 p-8">
-                        <li>
+                        <li class="opacity-0 animate-fade-in" style="animation-delay: 0.3s">
                             <a href="#Home" class="text-xl text-gray-400 hover:text-red-400 transition-colors duration-300">Home</a>
                         </li>
-                        <li>
+                        <li class="opacity-0 animate-fade-in" style="animation-delay: 0.4s">
                             <a href="#AboutUs" class="text-xl text-gray-400 hover:text-red-400 transition-colors duration-300">About us</a>
                         </li>
-                        <li>
+                        <li class="opacity-0 animate-fade-in" style="animation-delay: 0.5s">
                             <a href="#Products" class="text-xl text-gray-400 hover:text-red-400 transition-colors duration-300">Products</a>
                         </li>
-                        <li>
+                        <li class="opacity-0 animate-fade-in" style="animation-delay: 0.6s">
                             <a href="#ContactUs" class="text-xl text-gray-400 hover:text-red-400 transition-colors duration-300">Contact Us</a>
                         </li>
                     </ul>
