@@ -9,12 +9,11 @@
 </head>
 <body class=>
     <main class=" relative">
-        <header class="px-4 md:px-6 py-6 md:py-8 absolute z-10 w-full">
+        <header class="fixed p-4 left-0 w-full z-10 transition-colors duration-300">
             <nav class="flex justify-between items-center m-auto max-w-[1440px]">
                 <a href="#" class="transition-transform duration-300 hover:scale-110">
                     <img src="/assets/images/header-logo.svg" alt="" class="w-[100px] md:w-[130px] h-[24px] md:h-[29px]">
                 </a>
-                
                 <!-- Desktop Menu -->
                 <ul class="hidden lg:flex flex-1 justify-center items-center flex-row gap-6 md:gap-16">
                     <li>
@@ -38,12 +37,10 @@
                         </a>
                     </li>
                 </ul>
-
                 <!-- Mobile Menu Button -->
                 <button id="menu-btn" class="block lg:hidden transition-transform duration-300 hover:scale-110 cursor-pointer">
                     <img src="/assets/icons/hamburger.svg" alt="" class="w-[24px] h-[24px]">
                 </button>
-
                 <!-- Mobile Menu Panel -->
                 <div id="mobile-menu" class="fixed inset-0 bg-white z-50 transform translate-x-full transition-transform duration-300 lg:hidden">
                     <div class="flex justify-end p-4">

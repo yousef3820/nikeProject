@@ -149,4 +149,12 @@ window.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("#testimonials, #newsletter").forEach((section) => {
     sectionsObserver.observe(section);
   });
+  window.addEventListener("scroll", function () {
+    const header = document.querySelector("header");
+    if (window.scrollY > 50) {
+      header.classList.add("bg-white", "shadow-md");
+    } else {
+      header.classList.remove("bg-white", "shadow-md");
+    }
+  });
 });
